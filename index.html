@@ -10,16 +10,64 @@
 <body>
     <section>
         <header>
-            <h1>About My Cars</h1>
+            <h1>About My old Car</h1>
         </header>
-        <p><img src="images/IMG_7842.JPG" alt="BAWSI logo" width="300" height="300">There you can find only a short introduction of my loved old Cars.<br>
-        It's a lo
-        ng Time ago, but these Times was the best.<br>Looook to the right.</p>
-        <p class="subheader">My Car History</p>
+        <p><img src="images/IMG_7842.JPG" alt="BAWSI logo" width="300" height="300">There you can find only a short introduction of my loved old Car.<br>
+        It's a long Time ago, but these Times was the best.<br>Looook to the right.</p>
+        <p class="subheader">My old Car</p>
         <p>And here you can find my lazy Cat</p>
         
         <p><a href="secondpage.html">[Klick here to see here]</a></p>
     </section>
+
+ 
+
+    <h1>My Comment Section</h1>
+    <p>Leave me a Message.</p>
+  
+    <form id="form1" method="POST" action="https://www.mydemopage.com">
+  
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name">
+      <br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email">
+      <br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message"></textarea>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+  
+    <hr>
+  
+    <form id="form2" onsubmit="return handle_form_submission()">
+      <input type="text" name='name' id='name' placeholder='Name' />
+      <br>
+      <button type='submit'>Post it</button>
+    </form>
+    <hr>
+  
+    <script>
+      function handle_form_submission() {
+        alert('Submit button pressed');
+        return false;
+  
+      }
+    </script>
+  
+  
+  
+    <button type="button" onclick="my_button_click_handler()">Click this button</button>
+    <script>
+      function my_button_click_handler() {
+        alert('Button Clicked');
+      }
+    </script>
+
+
+
+
     <footer>
         Copyright &copy; 2023 RGW.
         All rights reserved. Used with permission.
